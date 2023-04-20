@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-image: url("https://lh3.googleusercontent.com/drive-viewer/AAOQEORooePH_ueGqT9O_-Vz8wIBqqqav_0qzeSB-NMdqNfZNxIBZwMPRhOQyJ0jZrDYdwPh7VkgZHnhChiQkOsVkEw51IIYMw=s1600");
+  font-family: Garamond;
+  font-size: 1.2em;
+}
+.flex{
+  /*flex box*/
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 400px;
+}
+h1{
+  text-align: center;
+  font-family: Ariel;
+}
+.container_syllabus{
+  width: 30%;
+  padding: 2em;
+}
+.container_videos{
+  width: 30%;
+  padding: 2em;
+}
+h3{
+  text-decoration: underline;
+  padding-bottom: 1em;
+  padding-top: 1em;
+}
+ul{
+  list-style-type: none;
+}
+li{
+  text-align: left;
+  padding: 0.5em;
+}
+p{
+  padding-bottom: 0.5em;
+}
+.note_stripes{
+  padding-top: 1em;
+}
+.container_form{
+  font-family: Ariel;
+  padding: 1em;
+  background-image: linear-gradient(darkGray, lightblue, lightblue, lightblue, orange);
+  opacity: 0.8;
+  border-color: darkGray;
+  border-style: double;
+}
+.label_name{
+  padding: 1em;
+  margin-top: 8em;
+}
+.label_colour{
+  padding: 1em;
+  margin-left: 3%;
+  margin-top: 8em;
+}
+.input_name{
+  margin-left: 1%;
+  padding: 0.5em;
+  width: 20%;
+  font-size: 0.8em;
+  margin-right: 1%;
+  margin-top: 8em;
+}
+.input_colour{
+  padding: 0.5em;
+  margin-left: 1%;
+  margin-bottom: 1em;
+  font-size: 0.8em;
+  margin-top: 8em;
+}
+.submit{
+  padding: 0.5em;
+  border-style: inset;
+  border-radius: 0.5em;
+  font-size: 0.75em;
+  margin: 0.5em;
+  margin-left: 2%;
+}
+.payment_message{
+  padding-top: 1em;
+  margin-top: 3em;
+  background-color: lightGray;
+  border-style: ridge;
+  text-align: center;
+  opacity: 90%;
+}
+.attribution{ 
+  font-size: 0.5em;
+}
