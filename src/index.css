@@ -96,12 +96,12 @@ p{
   padding: 0px 5px;  
 }*/
 .photos{  
-   padding-top: 1em;
-  display: block;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
-  height: auto;
 }
 .container_about{
   background-color: lightGreen;
@@ -231,6 +231,7 @@ p{
   font-size: 20px;
   text-shadow: 2px 2px gray;
   font-weight: bold;
+  text-align: right;
 }
 .welcome{
   font-weight: bold;
@@ -258,14 +259,6 @@ img{
   font: darkGreen;
   opacity: 0.8;
 }
-/*@media only screen and (min-width: 990px){*/
-/*.photos{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 10px;
-}  */
   .container_calendar{
     margin-top: 22px;
     text-align: center;
