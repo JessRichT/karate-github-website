@@ -96,13 +96,11 @@ p{
   padding: 0px 5px;  
 }*/
 .photos{  
-  display: flex;
-  flex-direction: column;
+ display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+  gap: 10px;
 }
 .container_about{
   background-color: lightGreen;
