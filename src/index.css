@@ -299,32 +299,3 @@ width: 100%;
     padding-right: 20em;
   }
 }  
-  
-  /*Delete following*/
-  /*.photos{
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 10px;
-}  
-  nav li{
-  display: block;
-  list-style-type: none;
-  cursor: pointer;
-  padding: 10px;
-  float: left;
-  font-weight: bold;
-  font-size: 19px;
-  font-family: Monospace, "Courier New";
-  font: black;
-}
-  img{
-  width: 70%;
-  padding: 0px 5px;
-}
-  iframe{
-  padding: 1em;
-  width: 75%;  
-  }
-}
