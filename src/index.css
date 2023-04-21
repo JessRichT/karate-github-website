@@ -96,11 +96,7 @@ p{
   padding: 0px 5px;  
 }*/
 .photos{  
- display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 10px;
+ width: 90%;
 }
 .container_about{
   background-color: lightGreen;
