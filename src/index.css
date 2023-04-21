@@ -77,8 +77,7 @@ p{
   font-size: 1em;
 }
 .newStyle{
-  padding-top: 1em;
-  padding-left: 10em;
+  padding-left: 2em;
   font-family: "Andale Mono", Monospace, "Courier New";
   color: blue;
   font-size: 20px;
@@ -97,13 +96,12 @@ p{
   padding: 0px 5px;  
 }*/
 .photos{  
-   /*flex box*/
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  width:90%;
+   padding-top: 1em;
+  display: block;
   margin-left: auto;
   margin-right: auto;
+  width: 50%;
+  height: auto;
 }
 .container_about{
   background-color: lightGreen;
