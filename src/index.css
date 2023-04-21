@@ -45,8 +45,9 @@ h1{
   font-size: 2em;
 }
 .logo{
-  text-align: center;
-  padding:1em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   width: 25%;
   height: auto;
 }
@@ -75,7 +76,8 @@ p{
   font-size: 1em;
 }
 .newStyle{
-  padding-left: 5em;
+  padding-top: 1em;
+  padding-left: 10em;
   font-family: "Andale Mono", Monospace, "Courier New";
   color: blue;
   font-size: 20px;
@@ -93,14 +95,12 @@ p{
   width: 90%;
   padding: 0px 5px;  
 }*/
-.photos{
-  /*flex box*/
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 30px;
-  width: 90%;
+.photos{  
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  height: auto;
 }
 .container_about{
   background-color: lightGreen;
