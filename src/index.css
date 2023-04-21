@@ -45,10 +45,11 @@ h1{
   font-size: 2em;
 }
 .logo{
+  padding-top: 1em;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 25%;
+  width: 50%;
   height: auto;
 }
 h3{
@@ -96,11 +97,13 @@ p{
   padding: 0px 5px;  
 }*/
 .photos{  
-   display: block;
+   /*flex box*/
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width:90%;
   margin-left: auto;
   margin-right: auto;
-  width: 25%;
-  height: auto;
 }
 .container_about{
   background-color: lightGreen;
@@ -145,8 +148,7 @@ width: 100%;
     display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
-  gap: 3px;
+    font-size: 0.2em;
   }
 @media only screen and (min-width: 768px) {
 /*for desktop*/ 
