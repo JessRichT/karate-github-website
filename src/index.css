@@ -75,7 +75,7 @@ p{
   font-size: 1em;
 }
 .newStyle{
-  padding-left: 1em;
+  padding-left: 5em;
   font-family: "Andale Mono", Monospace, "Courier New";
   color: blue;
   font-size: 20px;
@@ -89,10 +89,10 @@ p{
   padding: 10px;
   text-align: center;
 }
-img{
+/*img{
   width: 90%;
   padding: 0px 5px;  
-}
+}*/
 .photos{
   /*flex box*/
   display: flex;
