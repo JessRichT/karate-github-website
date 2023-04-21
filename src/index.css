@@ -40,14 +40,14 @@ nav li:visited{
 
 h1{
   text-align: center;
-  padding-top: 2em;
+  padding-top: 1em;
   font-family: 'Shojumaru', cursive;
   font-size: 2em;
 }
 .logo{
-  text-align: left;
+  text-align: center;
   padding:1em;
-  width: 15%;
+  width: 25%;
   height: auto;
 }
 h3{
@@ -75,6 +75,7 @@ p{
   font-size: 1em;
 }
 .newStyle{
+  padding-left: 1em;
   font-family: "Andale Mono", Monospace, "Courier New";
   color: blue;
   font-size: 20px;
@@ -99,6 +100,7 @@ img{
   flex-wrap: wrap;
   justify-content: center;
   gap: 30px;
+  width: 90%;
 }
 .container_about{
   background-color: lightGreen;
@@ -140,9 +142,11 @@ width: 100%;
   font-family: Monospace, "Courier New";
   }
   figcaption{
-    font-size: 5px;
-    padding-left: 20em;
-    padding-right: 20em;
+    display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3px;
   }
 @media only screen and (min-width: 768px) {
 /*for desktop*/ 
