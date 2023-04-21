@@ -4,7 +4,7 @@
   padding: 0;
 }
 body{
-    /*background-image: url("https://lh3.googleusercontent.com/drive-viewer/AAOQEORooePH_ueGqT9O_-Vz8wIBqqqav_0qzeSB-NMdqNfZNxIBZwMPRhOQyJ0jZrDYdwPh7VkgZHnhChiQkOsVkEw51IIYMw=s1600");*/
+  background-image: url("https://lh3.googleusercontent.com/drive-viewer/AAOQEORooePH_ueGqT9O_-Vz8wIBqqqav_0qzeSB-NMdqNfZNxIBZwMPRhOQyJ0jZrDYdwPh7VkgZHnhChiQkOsVkEw51IIYMw=s1600");
   margin-top: 50px;
 }
 nav{
@@ -91,12 +91,17 @@ p{
   padding: 10px;
   text-align: center;
 }
-/*img{
-  width: 90%;
+img{
+  width: 20%;
   padding: 0px 5px;  
-}*/
+}
 .photos{  
- width: 90%;
+ /*flex box*/
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
 }
 .container_about{
   background-color: lightGreen;
