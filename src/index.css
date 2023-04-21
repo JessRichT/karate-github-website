@@ -153,7 +153,155 @@ width: 100%;
   }
 }
 @media (min-width:320px)  { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ }{
-  .photos{
+  
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+    background-image: url("https://lh3.googleusercontent.com/drive-viewer/AAOQEORooePH_ueGqT9O_-Vz8wIBqqqav_0qzeSB-NMdqNfZNxIBZwMPRhOQyJ0jZrDYdwPh7VkgZHnhChiQkOsVkEw51IIYMw=s1600");
+  margin-top: 50px;
+}
+nav{
+width: 100%;
+  background-image: linear-gradient(to right, lightblue, blue);
+  position: fixed;
+  top: 0;
+  overflow: hidden;
+  border-top: 10px solid white;
+  z-index: 50;
+}
+nav li{
+  display: block;
+  list-style-type: none;
+  cursor: pointer;
+  padding: 10px;
+  float: left;
+  font-weight: bold;
+  font-size: 19px;
+  font-family: Monospace, "Courier New";
+  font: black;
+}
+a:hover{
+  color: lightYellow;
+}
+a:link {
+  color: darkBlue;
+  text-decoration: underline;
+}
+nav li:visited{
+  color: purple;
+}
+
+h1{
+  text-align: center;
+  padding-top: 2em;
+  font-family: 'Shojumaru', cursive;
+  font-size: 2em;
+}
+.logo{
+  text-align: left;
+  padding:1em;
+  width: 15%;
+  height: auto;
+}
+h3{
+  padding-bottom: 1em;
+  padding-top: 1em;
+  text-align: center;
+  text-decoration: underline;
+  font-size: 1.5em;
+}
+p{
+  font-size: 20px;
+  text-align: center; 
+  font-weight: medium;
+  font: darkgreen;
+  padding: 0.2em;
+}
+.container_contact{
+  background-color: lightgreen;
+  margin: 15px 0px;
+  opacity: 0.8;
+  text-align: center;
+  font-size: 1.2em;
+}
+.email{
+  font-size: 1em;
+}
+.newStyle{
+  font-family: "Andale Mono", Monospace, "Courier New";
+  color: blue;
+  font-size: 20px;
+  text-shadow: 2px 2px gray;
+  font-weight: bold;
+}
+.welcome{
+  font-weight: bold;
+  font-size: 23px;
+  font-family: Monospace, "Courier New";
+  padding: 10px;
+  text-align: center;
+}
+img{
+  width: 30%;
+  padding: 0px 5px;
+}
+.photos{
+  /*flex box*/
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+.container_about{
+  background-color: lightGreen;
+  margin-bottom: 1em;
+  padding: 1em;
+  font: darkGreen;
+  opacity: 0.8;
+}
+  .container_calendar{
+    margin-top: 22px;
+    text-align: center;
+    background-color: lightgreen;
+    margin: 15px 0px;
+  }
+  .gradient{
+    background-image: linear-gradient(lightGray, lightBlue);
+  }
+  .moreDates{
+    font-size:1em;
+}
+  iframe{
+    padding: 1em;
+  }
+  .foot{
+width: 100%;
+  background-image: linear-gradient(to right, lightblue, blue);
+  overflow: hidden;
+  border-top: 10px solid white;
+    float: right;
+  }
+  footer li{
+    display: inline-block;
+  list-style-type: none;
+  cursor: pointer;
+  padding: 10px;
+    font-weight: bold;
+  font-size: 18px;
+  font-family: Monospace, "Courier New";
+  }
+  figcaption{
+    font-size: 5px;
+    padding-left: 20em;
+    padding-right: 20em;
+  }
+}  
+  
+  /*Delete following*/
+  /*.photos{
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
