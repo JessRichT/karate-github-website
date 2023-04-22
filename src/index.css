@@ -51,6 +51,7 @@ h1{
   margin-right: auto;
   width: 50%;
   height: auto;
+  text-align: center; /*change to align with different @media*/
 }
 h3{
   padding-bottom: 1em;
@@ -149,6 +150,8 @@ width: 100%;
   flex-direction: row;
   flex-wrap: wrap;
     font-size: 0.2em;
+    padding-left: 0.5em; /*change for @media*/
+    padding-right: 0.5em; /*change for @media*/
   }
 @media only screen and (min-width: 768px) {
 /*for desktop*/ 
@@ -202,6 +205,9 @@ h1{
   padding:1em;
   width: 15%;
   height: auto;
+  display: none; /*change for @media*/
+  margin-left: auto; /*change for @media*/
+  margin-right: auto; /*change for @media*/
 }
 h3{
   padding-bottom: 1em;
@@ -245,6 +251,8 @@ p{
 img{
   width: 20%;
   padding: 0px 5px;
+  margin-left: auto; /*change for @media*/
+  margin-right: auto; /*change for @media*/
 }
 .photos{
   /*flex box*/
@@ -296,5 +304,8 @@ width: 100%;
     font-size: 5px;
     padding-left: 20em;
     padding-right: 20em;
+    display: flex; /*change for @media*/
+    flex-direction: row; /*change for @media*/
+    flex-wrap: wrap; /*change for @media*/
   }
 }
