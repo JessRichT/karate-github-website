@@ -205,9 +205,9 @@ h1{
   padding:1em;
   width: 15%;
   height: auto;
-  display: none; /*change for @media*/
-  margin-left: auto; /*change for @media*/
-  margin-right: auto; /*change for @media*/
+  /*display: none; changed back for @media*/
+  /*margin-left: auto; changed back for @media*/
+  /*margin-right: auto; changed back for @media*/
 }
 h3{
   padding-bottom: 1em;
@@ -251,8 +251,8 @@ p{
 img{
   width: 20%;
   padding: 0px 5px;
-  margin-left: auto; /*change for @media*/
-  margin-right: auto; /*change for @media*/
+  margin-left: 1em; /*changed for @media and adjusted auto to 1em*/
+  margin-right: 1em; /*changed for @media and adjusted auto to 1em*/
 }
 .photos{
   /*flex box*/
