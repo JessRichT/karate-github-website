@@ -205,9 +205,9 @@ h1{
   padding:1em;
   width: 15%;
   height: auto;
-  /*display: none; changed back for @media*/
-  /*margin-left: auto; changed back for @media*/
-  /*margin-right: auto; changed back for @media*/
+  display: flex; /*block changed back for @media*/
+  margin-left: 3em; /*changed to 3em from auto for @media*/
+  margin-right: 3em; /*changed ro 3em from auto for @media*/
 }
 h3{
   padding-bottom: 1em;
