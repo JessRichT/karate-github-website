@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/karate-github-website/static/css/main.093557cc.css",
-    "main.js": "/karate-github-website/static/js/main.91a15327.js",
+    "main.js": "/karate-github-website/static/js/main.ad75742b.js",
     "index.html": "/karate-github-website/index.html",
     "main.093557cc.css.map": "/karate-github-website/static/css/main.093557cc.css.map",
-    "main.91a15327.js.map": "/karate-github-website/static/js/main.91a15327.js.map"
+    "main.ad75742b.js.map": "/karate-github-website/static/js/main.ad75742b.js.map"
   },
   "entrypoints": [
     "static/css/main.093557cc.css",
-    "static/js/main.91a15327.js"
+    "static/js/main.ad75742b.js"
   ]
 }
