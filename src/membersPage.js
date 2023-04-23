@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import './index2.css';
 import { HashLink } from 'react-router-hash-link';
+import { Link} from "react-router-dom";
 
 //alternative const Website = () => {}
 function Website2() {
@@ -67,7 +68,10 @@ function Website2() {
 <footer class="foot">
   <ul id="foot_colour">
 {/*<li><a href="#top">Top</a></li>*/}
-    <li><a href="/">Home Page</a></li>
+    <li>
+    <Link to="/">Home Page</Link>
+      {/*<a href="/">Home Page</a>*/}
+    </li>
     </ul>
 </footer>
   </body>
