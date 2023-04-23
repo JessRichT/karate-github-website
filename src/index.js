@@ -3,9 +3,9 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import Navbar from './Navbar';
 
-//import App from './App';
+import App from './App';
 import Website from './frontPage';
-//import Website2 from './membersPage';
+import Website2 from './membersPage';
 //import reportWebVitals from './reportWebVitals';
 //import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import {HashRouter as Router, Route, Routes} from 'react-router-dom';
