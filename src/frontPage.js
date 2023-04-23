@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import ReactDOM from "react-dom/client";
 import './index.css';
-
+import { HashLink } from 'react-router-hash-link';
 
 function Website() {
   
@@ -15,14 +15,23 @@ function Website() {
 <link rel="stylesheet" href="./index.css"></link>
       </head>     
 
-<nav>
+{/*<nav>
   <ul class="nav-links">
     <li><a class="nav-link" href="#Contact">Contact</a></li>
     <li><a class="nav-link" href="#Calendar">Calendar</a></li>
     <li><a class="nav-link" href="#About">About</a></li>
   </ul>
-</nav>
+  </nav>*/}
+<nav>
+  <ul class="nav-links">
+    <li><HashLink to="/#Contact" class="nav-link">Contact</HashLink></li>
+    <li><HashLink to="/#Calendar" class="nav-link">Calendar</HashLink></li>
+    <li><HashLink to="/#About" class="nav-link">About</HashLink></li>
 
+    {/*<li><a class="nav-link" href="/#Calendar">Calendar</a></li>
+    <li><a class="nav-link" href="/#About">About</a></li>*/}
+  </ul>
+          </nav>
 <body>
   <section class="photos">
     <img class="logo" src="https://lh3.googleusercontent.com/drive-viewer/AAOQEORQVMYEjfBG2sMIEXNnONAFTzUhxClISYaULbyNsjISPUXe-HDqttWkVy5LGqNPQuWmS0WX_kkBMgmYYYmujSpfV693jg=s2560?source=screenshot.guru" alt="KarateLogo" />
@@ -76,8 +85,9 @@ function Website() {
     
 <footer class="foot">
   <ul id="foot_colour">
-<li><a href="#top">Top</a></li>
-    <li><a href="/members">Member's Area</a></li>
+{/*<li class="footli"><a href="#top">Top</a></li>*/}
+    {/*<li class="footli"><a href="/members">Member's Area</a></li>*/}
+    <li><a class="nav-link" href="/members#/members">Member's Area</a></li>
     </ul>
 </footer>
 </body>

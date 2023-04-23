@@ -1,24 +1,36 @@
 import React, {useState, useEffect} from 'react';
 import './index2.css';
+import { HashLink } from 'react-router-hash-link';
 
 //alternative const Website = () => {}
 function Website2() {
-/*  //use state:
+//use state:
   const[name, setName] = useState("");
-  const[beltColour, setBeltColour] = useState("");*/
+  const[beltColour, setBeltColour] = useState("");
 
 ////////JSX (similar to html).  Wrap in <> and </>
   return (
     <div>  
       
-<nav>
+{/*<nav>
   <ul class="nav-links">
-    <li><a class="nav-link" href="#Training">Training</a></li>
+    {/*<li><a class="nav-link" href="#Training">Training</a></li>
     <li><a class="nav-link" href="#Order">Order</a></li>
-    <li><a class="nav-link" href="/">Home Page</a></li>
+  <li><a class="nav-link" href="/">Home Page</a></li>
     <link rel="stylesheet" href="./index2.css"></link>
   </ul>
-</nav>
+</nav>*/}
+
+<nav>
+  <ul class="nav-links">
+    <li><HashLink to="/members/#Training" class="nav-link">Training</HashLink></li>
+    <li><HashLink to="/members/#Syllabus" class="nav-link">Syllabus</HashLink></li>
+    
+
+    {/*<li><a class="nav-link" href="/#Calendar">Calendar</a></li>
+    <li><a class="nav-link" href="/#About">About</a></li>*/}
+  </ul>
+          </nav>
 
 <body>
 <h1>Member's Area</h1>
@@ -54,7 +66,7 @@ function Website2() {
 
 <footer class="foot">
   <ul id="foot_colour">
-<li><a href="#top">Top</a></li>
+{/*<li><a href="#top">Top</a></li>*/}
     <li><a href="/">Home Page</a></li>
     </ul>
 </footer>
