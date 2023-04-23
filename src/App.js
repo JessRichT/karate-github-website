@@ -3,6 +3,8 @@
 import './index.css';
 import React, {Component} from 'react';
 import {HashRouter, Route, Routes, Link} from "react-router-dom";
+import {Website} from "./frontPage";
+import {Website2} from "./membersPage";
 
 class App extends Component{
   render(){
@@ -16,8 +18,8 @@ class App extends Component{
 
           <hr />
           <Routes>
-          <Route exact path="/" component={Home} />
-          <Route path="/members" component={Members} />
+          <Route exact path="/" element={<Website/>} />
+          <Route path="/members" element={<Website2/>} />
           </Routes>
         </div>
 
@@ -25,13 +27,6 @@ class App extends Component{
     );
   }
 }
-const Home = () => 
-<div>
-<h1>Home</h1>
-    </div>
-
-const Members = () => 
-<div>
-<h1>Members</h1>
-</div>
+//const Home = () => <div><h1>OUCH!!!</h1></div>
+//const Members = () => <div><h1>NOOOOOOO</h1></div>
 export default App;

@@ -2,6 +2,7 @@ import React, {useState, useEffect} from 'react';
 import ReactDOM from "react-dom/client";
 import './index.css';
 
+
 function Website() {
   
 ////////JSX (similar to html).  Wrap in <> and </>
@@ -84,4 +85,4 @@ function Website() {
   )
 }
 
-//export default Website;
+export {Website};

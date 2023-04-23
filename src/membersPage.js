@@ -3,13 +3,13 @@ import './index2.css';
 
 //alternative const Website = () => {}
 function Website2() {
-  //use state:
+/*  //use state:
   const[name, setName] = useState("");
-  const[beltColour, setBeltColour] = useState("");
+  const[beltColour, setBeltColour] = useState("");*/
 
 ////////JSX (similar to html).  Wrap in <> and </>
   return (
-    <>  
+    <div>  
       
 <nav>
   <ul class="nav-links">
@@ -59,10 +59,10 @@ function Website2() {
     </ul>
 </footer>
   </body>
-  </>
+  </div>
   )
 }
 
 
 
-//export default Website2;
+export {Website2};
