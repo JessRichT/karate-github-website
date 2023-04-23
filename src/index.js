@@ -16,12 +16,12 @@ root.render(
     <div className="content">
       <Routes>
         <Route exact path="/">
-    <Website />
-     </Route>
-    <Route path="/members">
-      <Website2 />
-    </Route>
-    </Routes>
-    </div>
+         <Website />
+        </Route>
+        <Route exact path="/members">
+          <Website2 />
+        </Route>
+      </Routes>
+     </div>
     </Router>
 );
