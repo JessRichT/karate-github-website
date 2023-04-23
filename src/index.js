@@ -12,16 +12,16 @@ import {HashRouter as Router, Route, Routes} from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-//  <Router>
-//    <div className="content">
-//      <Routes>
-//        <Route exact path="/">
+  <Router>
+    <div className="content">
+      <Routes>
+        <Route exact path="/">
     <Website />
-//     </Route>
-//    <Route path="/members">
-//      <Website2 />
-//    </Route>
-//    </Routes>
-//    </div>
-//    </Router>
+     </Route>
+    <Route path="/members">
+      <Website2 />
+    </Route>
+    </Routes>
+    </div>
+    </Router>
 );
