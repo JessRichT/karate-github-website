@@ -3,8 +3,14 @@ import ReactDOM from "react-dom/client";
 import './index.css';
 import { HashLink } from 'react-router-hash-link';
 import { Link} from "react-router-dom";
+  
 
 function Website() {
+
+  useEffect(() => {
+    document.title = 'Richards Karate Dojo';
+  }, []);
+}
   
 ////////JSX (similar to html).  Wrap in <> and </>
   return (
