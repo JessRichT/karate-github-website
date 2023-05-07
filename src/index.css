@@ -127,7 +127,7 @@ img{
 }
   iframe{
     padding: 1em;
-    width: 100%;
+    /*width: 100%;*/
   }
   .foot{
 width: 100%;
