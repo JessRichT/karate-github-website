@@ -72,7 +72,7 @@ function Website() {
   <p><span class="moreDates"><tt>More dates to come!</tt></span></p>
   <p>Check out our <b>Google Calendar</b> below for more info:</p>
 </div>
-<iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=2&bgcolor=%23ffffff&ctz=Europe%2FLondon&title=Richards%20Dojo%3A%20Karate%20Term%20Dates&showNav=1&showTabs=0&showCalendars=0&hl=en_GB&src=MTM3M2FkYTM4OGRjZjUzZDkzZTA4MmFkNzgwYTU1MTFiN2QwZDEwMDM5OGM1NzdlNTAyMWY2NjUxNDA2MTZjMUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%230B8043" width="100%" height="auto" title="calendar" frameborder="0"></iframe>
+<iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=2&bgcolor=%23ffffff&ctz=Europe%2FLondon&title=Richards%20Dojo%3A%20Karate%20Term%20Dates&showNav=1&showTabs=0&mode=AGENDA&showCalendars=0&hl=en_GB&src=MTM3M2FkYTM4OGRjZjUzZDkzZTA4MmFkNzgwYTU1MTFiN2QwZDEwMDM5OGM1NzdlNTAyMWY2NjUxNDA2MTZjMUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%230B8043" width="70%" height="300" title="calendar" frameborder="0"></iframe>
  {/*Changed width from 70% to 100%, height from 300 to auto and title = calendar*/}
     </section>
   
@@ -82,7 +82,7 @@ function Website() {
   <a class="email" href="mailto: info@richardsdojo.co.uk">E-mail</a>
   <br></br>
   <br></br>
-  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2479.834368477423!2d-0.36202737674165114!3d51.571269844872674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876133b8f4e2867%3A0x317be2a9af7c9fd5!2sBeacon%20Centre%20Harrow!5e0!3m2!1sen!2suk!4v1681660706903!5m2!1sen!2suk" width="600" height="450" frameborder="0" allowfullscreen="" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2479.834368477423!2d-0.36202737674165114!3d51.571269844872674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876133b8f4e2867%3A0x317be2a9af7c9fd5!2sBeacon%20Centre%20Harrow!5e0!3m2!1sen!2suk!4v1681660706903!5m2!1sen!2suk" width="600" height="450" frameborder="0" allowfullscreen="" title="map" referrerpolicy="no-referrer-when-downgrade"></iframe>
   </section>
     
 <footer class="foot">
