@@ -12,7 +12,9 @@ function Website2() {
 ////////JSX (similar to html).  Wrap in <> and </>
   return (
     <div>  
-      
+      <head>
+        <title>Karate Members</title>
+        </head>
 {/*<nav>
   <ul class="nav-links">
     {/*<li><a class="nav-link" href="#Training">Training</a></li>

@@ -10,6 +10,7 @@ function Website() {
   return (
     <div>  
 <head>
+  <title>Richards Karate</title>
 <link rel="preconnect" href="https://fonts.googleapis.com"></link>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin></link>
 <link href="https://fonts.googleapis.com/css2?family=Shojumaru&display=swap" rel="stylesheet"></link>
@@ -71,8 +72,8 @@ function Website() {
   <p><span class="moreDates"><tt>More dates to come!</tt></span></p>
   <p>Check out our <b>Google Calendar</b> below for more info:</p>
 </div>
-<iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=2&bgcolor=%23ffffff&ctz=Europe%2FLondon&title=Richards%20Dojo%3A%20Karate%20Term%20Dates&showNav=1&showTabs=0&showCalendars=0&hl=en_GB&src=MTM3M2FkYTM4OGRjZjUzZDkzZTA4MmFkNzgwYTU1MTFiN2QwZDEwMDM5OGM1NzdlNTAyMWY2NjUxNDA2MTZjMUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%230B8043" width="70%" height="300" frameborder="0"></iframe>
- 
+<iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=2&bgcolor=%23ffffff&ctz=Europe%2FLondon&title=Richards%20Dojo%3A%20Karate%20Term%20Dates&showNav=1&showTabs=0&showCalendars=0&hl=en_GB&src=MTM3M2FkYTM4OGRjZjUzZDkzZTA4MmFkNzgwYTU1MTFiN2QwZDEwMDM5OGM1NzdlNTAyMWY2NjUxNDA2MTZjMUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%230B8043" width="100%" height="auto" title="calendar" frameborder="0"></iframe>
+ {/*Changed width from 70% to 100%, height from 300 to auto and title = calendar*/}
     </section>
   
   <section class="container_contact" id="Contact">

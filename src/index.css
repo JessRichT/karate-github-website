@@ -284,6 +284,7 @@ img{
 }
   iframe{
     padding: 1em;
+    width: 70% /*Added width*/
   }
   .foot{
 width: 100%;
