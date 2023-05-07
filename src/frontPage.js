@@ -6,12 +6,12 @@ import { Link} from "react-router-dom";
   
 
 function Website() {
-
+/*
   useEffect(() => {
     document.title = 'Richards Karate Dojo';
   }, []);
 }
-  
+  */
 ////////JSX (similar to html).  Wrap in <> and </>
   return (
     <div>  
