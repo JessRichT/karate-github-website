@@ -27,8 +27,8 @@ function Website2() {
 <nav>
   <ul class="nav-links">
 
-    <li><HashLink to="/members/#Training" class="nav-link">Training</HashLink></li>
-    <li><HashLink to="/members/#Syllabus" class="nav-link">Syllabus</HashLink></li>
+    <li><HashLink to="/members/#Training" id="linkHide" class="nav-link">Training</HashLink></li>
+    <li><HashLink to="/members/#Syllabus" id="linkHide" class="nav-link">Syllabus</HashLink></li>
     
 
     {/*<li><a class="nav-link" href="/#Calendar">Calendar</a></li>
