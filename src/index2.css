@@ -115,6 +115,10 @@ body{
   font-family: Garamond;
   font-size: 1.2em;
 }
+.nav-link{
+  display:none /*added for bigger screens as these links are redundant on this size screen*/
+}
+
 .flex{
   /*flex box*/
   display: flex;
