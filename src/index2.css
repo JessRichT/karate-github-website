@@ -49,7 +49,7 @@ p{
   padding-bottom: 0.5em;
 }
 .blackWhite{
-  color: lightblue
+  color: lightgray
 }
 .note_stripes{
   padding-top: 1em;
@@ -159,6 +159,9 @@ li{
 }
 p{
   padding-bottom: 0.5em;
+}
+.blackWhite{
+  color: black
 }
 .note_stripes{
   padding-top: 1em;
