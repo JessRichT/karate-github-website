@@ -26,6 +26,7 @@ function Website2() {
 
 <nav>
   <ul class="nav-links">
+
     <li><HashLink to="/members/#Training" class="nav-link">Training</HashLink></li>
     <li><HashLink to="/members/#Syllabus" class="nav-link">Syllabus</HashLink></li>
     
@@ -39,7 +40,8 @@ function Website2() {
 <h1>Member's Area</h1>
     
     <div class="flex">
-<section id="Training" class="container_syllabus">
+
+<section id="Syllabus" class="container_syllabus">
   <h3>Karate syllabus</h3>
   <p>Here are our Shotokan karate belt colours.  More information about the syllabus is coming soon:</p>
   <ul>
