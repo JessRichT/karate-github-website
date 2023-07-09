@@ -43,7 +43,7 @@ function Website() {
           </nav>
 <body>
   <section class="photos">
-    <img class="logo" src="./KarateLogoColour.svg" alt="Karate Logo" />
+    <img class="logo" src="./src/KarateLogoColour.svg" alt="Karate Logo" />
 <h1>Richards Dojo: Harrow</h1>
   </section>
   
@@ -62,9 +62,9 @@ function Website() {
 
   <section class="photos">
   
-       <img src="girlKarate.jpg" alt="Girl karate" />
-    <img src="GroupKarate.jpg" alt="Dojo group" />
-    <img src="karateBoy.jpg" alt="Boy karate" />
+       <img src="./src/girlKarate.jpg" alt="Girl karate" />
+    <img src="./src/GroupKarate.jpg" alt="Dojo group" />
+    <img src="./src/karateBoy.jpg" alt="Boy karate" />
   </section>
     
   <section class="photos"> 
