@@ -3,6 +3,7 @@ import ReactDOM from "react-dom/client";
 import './index.css';
 import { HashLink } from 'react-router-hash-link';
 import { Link} from "react-router-dom";
+
   
 
 function Website() {
@@ -42,7 +43,7 @@ function Website() {
           </nav>
 <body>
   <section class="photos">
-    <img class="logo" src="https://lh3.googleusercontent.com/drive-viewer/AAOQEORQVMYEjfBG2sMIEXNnONAFTzUhxClISYaULbyNsjISPUXe-HDqttWkVy5LGqNPQuWmS0WX_kkBMgmYYYmujSpfV693jg=s2560?source=screenshot.guru" alt="KarateLogo" />
+    <img class="logo" src="./KarateLogoColour.svg" alt="Karate Logo" />
 <h1>Richards Dojo: Harrow</h1>
   </section>
   
@@ -53,15 +54,17 @@ function Website() {
 <p>We are a friendly karate club catering for local children.</p>  <p>Shotokan Karate promotes hand-eye co-ordination, balance and discipline.</p>
 <p>We offer regular gradings and the club has two 6th Dan instructors.</p> 
       
-      <p>Come on Sunday 2pm-3pm for a <span class="free" id="free">free trial session.</span></p>
+      <p>Come on for a <span class="free" id="free">free trial session.</span></p>
+      <p>ADVANCED CLASSES: Sunday 2-3pm</p>
+      <p>BEGINNER/INTERMEDIATE CLASSES: 3-4pm</p>
       <p>Please <a class="email" href="mailto: info@richardsdojo.co.uk">contact us</a> for our very reasonable prices.</p>
   </section>
 
   <section class="photos">
   
-       <img src="https://lh3.googleusercontent.com/drive-viewer/AAOQEOSgJF0tIAxzEADGfG-K5NS7nlIicr71faAPv2HF7rLRQClg3o8_caM9jwerPx_c6iE6LULAPhfHJ0Xgs2dGSt6F8QR12Q" alt="Girl karate" />
-    <img src="https://lh3.googleusercontent.com/drive-viewer/AAOQEOSQWd_QCJdO4ModhmTCo6xO5OyB0GZ4udWHHC4svcWsgFFYMA6oxLC_lLLD0YVCTMQz88VrJE_gqmKRooQiIuLPVpbREg=s1600" alt="Dojo group photo" />
-    <img src="https://lh3.googleusercontent.com/drive-viewer/AAOQEOS1YQ39oaYToZQZVWsS-uYXSk_YyYkx3LEbZ1RGWTXxCHNCOm73-WmkpyUVuZ7WDT_q3H4RKGE6sz1KOxadzAexG2W7Yg=s2560" alt="Boy karate" />
+       <img src="girlKarate.jpg" alt="Girl karate" />
+    <img src="GroupKarate.jpg" alt="Dojo group" />
+    <img src="karateBoy.jpg" alt="Boy karate" />
   </section>
     
   <section class="photos"> 
@@ -84,7 +87,7 @@ function Website() {
   
   <section class="container_contact" id="Contact">
 <h3>Contact Us</h3>
-<p>9 Scott Cres, Harrow HA2 0TY </p>
+<p>Northolt 2nd Scout hut, Russell Road, UB5 4PQ</p>
   <a class="email" href="mailto: info@richardsdojo.co.uk">E-mail</a>
   <br></br>
   <br></br>

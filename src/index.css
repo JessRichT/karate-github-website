@@ -4,7 +4,8 @@
   padding: 0;
 }
 body{
-  background-image: url("https://lh3.googleusercontent.com/drive-viewer/AAOQEORooePH_ueGqT9O_-Vz8wIBqqqav_0qzeSB-NMdqNfZNxIBZwMPRhOQyJ0jZrDYdwPh7VkgZHnhChiQkOsVkEw51IIYMw=s1600");
+  /*SteppingStones.jpg*/
+  background-image: url("SteppingStones.jpg"); /*stepping stones
   margin-top: 50px;
 }
 nav{
@@ -15,7 +16,6 @@ width: 100%;
   overflow: hidden;
   border-top: 10px solid white;
   z-index: 50;
-  height: 1em;
 }
 nav li{
   display: block;
