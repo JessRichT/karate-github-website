@@ -68,7 +68,7 @@ function Website2() {
 <iframe width="360" height="215" src="https://www.youtube.com/embed/-Z1D16MqisA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </section>
     </div>
-
+   
 <footer class="foot">
   <ul id="foot_colour">
 {/*<li><a href="#top">Top</a></li>*/}
@@ -80,6 +80,7 @@ function Website2() {
 </footer>
   </body>
   </div>
+  
   )
 }
 

@@ -5,7 +5,7 @@
 }
 body{
   /*SteppingStones.jpg*/
-  background-image: url("SteppingStones.jpg"); /*stepping stones
+  background-image: url("./SteppingStones.jpg"); /*stepping stones
   margin-top: 50px;
 }
 nav{

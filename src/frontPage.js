@@ -4,7 +4,11 @@ import './index.css';
 import { HashLink } from 'react-router-hash-link';
 import { Link} from "react-router-dom";
 
-  
+import girlKarate from './girlKarate.jpg';
+import GroupKarate from './GroupKarate.jpg';
+import karateBoy from './karateBoy.jpg';
+import KarateLogoColour from './KarateLogoColour.png';
+//import SteppingStones from './SteppingStones.jpg';
 
 function Website() {
 /*
@@ -43,7 +47,7 @@ function Website() {
           </nav>
 <body>
   <section class="photos">
-    <img class="logo" src="./src/KarateLogoColour.svg" alt="Karate Logo" />
+    <img class="logo" src={KarateLogoColour} alt="Karate Logo" />
 <h1>Richards Dojo: Harrow</h1>
   </section>
   
@@ -62,9 +66,9 @@ function Website() {
 
   <section class="photos">
   
-       <img src="./src/girlKarate.jpg" alt="Girl karate" />
-    <img src="./src/GroupKarate.jpg" alt="Dojo group" />
-    <img src="./src/karateBoy.jpg" alt="Boy karate" />
+       <img src={girlKarate} alt="Girl karate" />
+    <img src={GroupKarate} alt="Dojo group" />
+    <img src={karateBoy} alt="Boy karate" />
   </section>
     
   <section class="photos"> 
