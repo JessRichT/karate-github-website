@@ -311,4 +311,7 @@ width: 100%;
     flex-direction: row; /*change for @media*/
     flex-wrap: wrap; /*change for @media*/
   }
+  .bg{
+    background-color: orange;
+  }
 }

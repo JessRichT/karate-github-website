@@ -4,11 +4,11 @@ import './index.css';
 import { HashLink } from 'react-router-hash-link';
 import { Link} from "react-router-dom";
 
-import girlKarate from './girlKarate.jpg';
-import GroupKarate from './GroupKarate.jpg';
-import karateBoy from './karateBoy.jpg';
-import KarateLogoColour from './KarateLogoColour.png';
-//import SteppingStones from './SteppingStones.jpg';
+import girlKarate from 'girlKarate.jpg';
+import GroupKarate from 'GroupKarate.jpg';
+import karateBoy from 'karateBoy.jpg';
+import KarateLogoColour from 'KarateLogoColour.png';
+import SteppingStones from 'SteppingStones.jpg';
 
 function Website() {
 /*
@@ -19,7 +19,7 @@ function Website() {
   */
 ////////JSX (similar to html).  Wrap in <> and </>
   return (
-    <div>  
+    <div class="bg">  
 <head>
   <title>Richards Karate</title>
 <link rel="preconnect" href="https://fonts.googleapis.com"></link>
