@@ -49,8 +49,7 @@ h1{
   padding-top: 1em;
   display: block;
   margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+  margin-right: auto;  width: 50%;
   height: auto;
   text-align: center; /*change to align with different @media*/
 }
