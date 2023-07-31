@@ -4,10 +4,10 @@ import './index.css';
 import { HashLink } from 'react-router-hash-link';
 import { Link} from "react-router-dom";
 
-import girlKarate from './images/girlKarate.jpg';
-import GroupKarate from './images/GroupKarate.jpg';
-import karateBoy from './images/karateBoy.jpg';
-import KarateLogoColour from './images/KarateLogoColour.png';
+import girlKarate from 'images/girlKarate.jpg';
+import GroupKarate from 'images/GroupKarate.jpg';
+import karateBoy from 'images/karateBoy.jpg';
+import KarateLogoColour from 'images/KarateLogoColour.png';
 //import SteppingStones from './SteppingStones.jpg';
 
 function Website() {
