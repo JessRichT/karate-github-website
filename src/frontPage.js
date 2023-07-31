@@ -80,7 +80,7 @@ function Website() {
   <section class="container_calendar" id="Calendar">
     <div class="gradient">
     <h3>Karate Calendar</h3>
-  <p>3rd Term: <strong>23rd April - 23rd July</strong></p>
+  <p>1st Term: <strong>10<sup>th</sup> September - 17<sup>th</sup> December</strong></p>
 
   <p><span class="moreDates"><tt>More dates to come!</tt></span></p>
   <p>Check out our <b>Google Calendar</b> below for more info:</p>

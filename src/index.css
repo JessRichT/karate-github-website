@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
 }
-body{
+.bg{
   background: lightblue url("images/SteppingStones.jpg")
   /*background-image: url("images/SteppingStones.jpg");*/
   /*margin-top: 50px;
