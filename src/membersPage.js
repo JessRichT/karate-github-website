@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react';
-import './index2.css';
+import 'css/index2.css';
 import { HashLink } from 'react-router-hash-link';
 import { Link} from "react-router-dom";
 
