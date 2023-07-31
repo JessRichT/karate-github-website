@@ -161,10 +161,10 @@ width: 100%;
   margin: 0;
   padding: 0;
 }
-body{
+/*body{
     background-image: url("https://lh3.googleusercontent.com/drive-viewer/AAOQEORooePH_ueGqT9O_-Vz8wIBqqqav_0qzeSB-NMdqNfZNxIBZwMPRhOQyJ0jZrDYdwPh7VkgZHnhChiQkOsVkEw51IIYMw=s1600");
   margin-top: 50px;
-}
+}*/
 nav{
 width: 100%;
   background-image: linear-gradient(to right, lightblue, blue);
@@ -311,7 +311,7 @@ width: 100%;
     flex-direction: row; /*change for @media*/
     flex-wrap: wrap; /*change for @media*/
   }
-  .bg{
+  /*.bg{
     background-color: orange;
-  }
+  }*/
 }
