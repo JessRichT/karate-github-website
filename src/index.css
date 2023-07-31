@@ -4,9 +4,9 @@
   padding: 0;
 }
 body{
-  /*SteppingStones.jpg*/
-  background-image: url("./SteppingStones.jpg"); /*stepping stones
-  margin-top: 50px;
+  background: lightblue url("images/SteppingStones.jpg")
+  /*background-image: url("images/SteppingStones.jpg");*/
+  /*margin-top: 50px;
 }
 nav{
 width: 100%;

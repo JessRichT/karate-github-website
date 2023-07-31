@@ -8,7 +8,7 @@ import girlKarate from 'images/girlKarate.jpg';
 import GroupKarate from 'images/GroupKarate.jpg';
 import karateBoy from 'images/karateBoy.jpg';
 import KarateLogoColour from 'images/KarateLogoColour.png';
-//import SteppingStones from './SteppingStones.jpg';
+import SteppingStones from 'images/SteppingStones.jpg';
 
 function Website() {
 /*
