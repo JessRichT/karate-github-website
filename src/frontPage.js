@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import ReactDOM from "react-dom/client";
-import 'index.css';
+import 'css/index.css';
 import { HashLink } from 'react-router-hash-link';
 import { Link} from "react-router-dom";
 
