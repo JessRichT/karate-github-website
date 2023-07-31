@@ -25,7 +25,7 @@ function Website() {
 <link rel="preconnect" href="https://fonts.googleapis.com"></link>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin></link>
 <link href="https://fonts.googleapis.com/css2?family=Shojumaru&display=swap" rel="stylesheet"></link>
-<link rel="stylesheet" href="./index.css"></link>
+<link rel="stylesheet" href="css/index.css"></link>
       </head>     
 
 {/*<nav>
