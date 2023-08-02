@@ -1,6 +1,6 @@
 //import logo from './logo.svg';
 //import './App.css';
-import './index.css';
+import './css/index.css';
 import React, {Component} from 'react';
 import {HashRouter, Route, Routes, Link} from "react-router-dom";
 

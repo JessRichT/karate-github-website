@@ -1,14 +1,14 @@
 import React, {useState, useEffect} from 'react';
 import ReactDOM from "react-dom/client";
-import 'css/index.css';
+import './css/index.css';
 import { HashLink } from 'react-router-hash-link';
 import { Link} from "react-router-dom";
 
-import girlKarate from 'images/girlKarate.jpg';
-import GroupKarate from 'images/GroupKarate.jpg';
-import karateBoy from 'images/karateBoy.jpg';
-import KarateLogoColour from 'images/KarateLogoColour.png';
-import SteppingStones from 'images/SteppingStones.jpg';
+import girlKarate from './images/girlKarate.jpg';
+import GroupKarate from './images/GroupKarate.jpg';
+import karateBoy from './images/karateBoy.jpg';
+import KarateLogoColour from './images/KarateLogoColour.png';
+//import SteppingStones from './images/SteppingStones.jpg';
 
 function Website() {
 /*
@@ -25,7 +25,7 @@ function Website() {
 <link rel="preconnect" href="https://fonts.googleapis.com"></link>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin></link>
 <link href="https://fonts.googleapis.com/css2?family=Shojumaru&display=swap" rel="stylesheet"></link>
-<link rel="stylesheet" href="css/index.css"></link>
+<link rel="stylesheet" href="src/css/index.css"></link>
       </head>     
 
 {/*<nav>

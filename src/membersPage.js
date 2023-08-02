@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react';
-import 'css/index2.css';
+import './css/index2.css';
 import { HashLink } from 'react-router-hash-link';
 import { Link} from "react-router-dom";
 
@@ -10,8 +10,8 @@ function Website2() {
   const[beltColour, setBeltColour] = useState("");
 
 ////////JSX (similar to html).  Wrap in <> and </>
-  return (
-    <div>  
+  return ( 
+      <div> 
       <head>
         <title>Karate Members</title>
         </head>
@@ -37,6 +37,7 @@ function Website2() {
           </nav>
 
 <body>
+<div class="bg"> 
 <h1>Member's Area</h1>
     
     <div class="flex">
@@ -45,15 +46,15 @@ function Website2() {
   <h3>Karate syllabus</h3>
   <p>Here are our Shotokan karate belt colours.  More information about the syllabus is coming soon:</p>
   <ul>
-    <li>White belt</li>
-    <li>Red belt</li>
-    <li>Orange belt</li>
-    <li>Yellow belt</li>
-    <li>Green belt</li>
-    <li>Blue belt</li>
-    <li>Purple belt</li>
-    <li>Brown belt</li>
-    <li>Black belt</li>
+    <li style={{ color: 'white' }} >White belt</li>
+    <li style={{ color: 'red' }} >Red belt</li>
+    <li style={{ color: 'orange' }}>Orange belt</li>
+    <li style={{ color: 'yellow' }}>Yellow belt</li>
+    <li style={{ color: 'green' }}>Green belt</li>
+    <li style={{ color: 'blue' }}>Blue belt</li>
+    <li style={{ color: 'purple' }}>Purple belt</li>
+    <li style={{ color: 'brown' }}>Brown belt</li>
+    <li style={{ color: 'black' }}>Black belt</li>
   </ul>  
   <p class="note_stripes">N.B. Kids can achieve intermediate grades which are shown with a white stripe on their belt.</p>
 </section>      
@@ -67,6 +68,7 @@ function Website2() {
 <p class="blackWhite">Kanazawa demonstrates Shotokan katas in these videos:</p>
 <iframe width="360" height="215" src="https://www.youtube.com/embed/-Z1D16MqisA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </section>
+    </div>
     </div>
    
 <footer class="foot">

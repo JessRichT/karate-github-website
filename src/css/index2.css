@@ -4,14 +4,18 @@
   padding: 0;
   box-sizing: border-box;
 }
-body{
-  background-image: url("images/SteppingStones.jpg");
-  /*background-image: url('./SteppingStones.jpg');*/
+.bg{
+  background: orange url("../images/SteppingStones.jpg")
+  /*background-image: url("images/SteppingStones.jpg");*/
+}
+/*body{
+  background-image: url("../images/SteppingStones.jpg");
+  /*background-image: url('./SteppingStones.jpg');
   
-  /*background-color: darkOrange;
+  background-color: darkOrange;
   font-family: Garamond;
   font-size: 1.2em;
-}
+}*/
 .flex{
   /*flex box*/
   display: flex;
