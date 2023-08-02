@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/karate-github-website/static/css/main.fd23950f.css",
-    "main.js": "/karate-github-website/static/js/main.b92f4f2c.js",
+    "main.js": "/karate-github-website/static/js/main.218274b0.js",
     "static/media/SteppingStones.jpg": "/karate-github-website/static/media/SteppingStones.a83ef4fc5a6f63d6a47d.jpg",
     "static/media/GroupKarate.jpg": "/karate-github-website/static/media/GroupKarate.0b9a409dc7bb53ee7a0f.jpg",
     "static/media/girlKarate.jpg": "/karate-github-website/static/media/girlKarate.f97c2fd1040dd7cc0f4c.jpg",
     "static/media/KarateLogoColour.png": "/karate-github-website/static/media/KarateLogoColour.4fd17f0fe56bfbbc7a4a.png",
     "index.html": "/karate-github-website/index.html",
     "main.fd23950f.css.map": "/karate-github-website/static/css/main.fd23950f.css.map",
-    "main.b92f4f2c.js.map": "/karate-github-website/static/js/main.b92f4f2c.js.map"
+    "main.218274b0.js.map": "/karate-github-website/static/js/main.218274b0.js.map"
   },
   "entrypoints": [
     "static/css/main.fd23950f.css",
-    "static/js/main.b92f4f2c.js"
+    "static/js/main.218274b0.js"
   ]
 }
