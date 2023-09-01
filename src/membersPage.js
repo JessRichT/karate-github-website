@@ -11,7 +11,7 @@ function Website2() {
 //use state:
   //const[name, setName] = useState("");
   //const[beltColour, setBeltColour] = useState("");
-  const [kata, setKata] = useState("Click on the belt colour to see more information");
+  const [kata, setKata] = useState("What do you need to get your next belt?");
 
 ////////JSX (similar to html).  Wrap in <> and </>
   return ( 
@@ -48,55 +48,55 @@ function Website2() {
 
 <section id="Syllabus" class="container_syllabus">
   <h3>Karate syllabus</h3>
-  <p>Here are our Shotokan karate belt colours:</p>
+  <p>Click on the belt colour to find out more:</p>
   <ul>
     {/*<li style={{ color: 'white' }} >White belt</li>*/}
     {/*<li style={{ color: 'red' }} >Red belt</li>*/}
     <li
         onClick={() => setKata("This is your first belt.")}
-        style={{ color: 'white', cursor: 'pointer' }} >White belt</li>
+        style={{ color: 'white', cursor: 'pointer', textDecorationLine: 'underline' }} >White belt</li>
 
     <li
         onClick={() => setKata(
-          "No Katas required.  Basics: Straight punch, stepping punch, reverse punch, upward block, front kick, downward block")}
-        style={{ color: 'red', cursor: 'pointer'}} >Red belt</li>
+          "Red belt:  No Katas required.  Basics: Straight punch, stepping punch, reverse punch, upward block, front kick, downward block")}
+        style={{ color: 'red', cursor: 'pointer', textDecorationLine: 'underline'}} >Red belt</li>
 
     {/*<li style={{ color: 'orange' }}>Orange belt</li>*/}
     <li
-        onClick={() => setKata("Kata: Heian Shodan. Kumite: Gohon Ippon Face and Front Kick")}
-        style={{ color: 'orange', cursor: 'pointer' }} >Orange belt</li>
+        onClick={() => setKata("Orange belt.  Kata: Heian Shodan. Kumite: Gohon Ippon Face and Front Kick")}
+        style={{ color: 'orange', cursor: 'pointer', textDecorationLine: 'underline' }} >Orange belt</li>
 
 <li
-        onClick={() => setKata("Kata: Heian Nidan. Kumite: Gohon Ippon Full and Sambon")}
-        style={{ color: 'yellow', cursor: 'pointer' }} >Yellow belt</li>
+        onClick={() => setKata("Yellow belt.  Kata: Heian Nidan. Kumite: Gohon Ippon Full and Sambon")}
+        style={{ color: 'yellow', cursor: 'pointer', textDecorationLine: 'underline' }} >Yellow belt</li>
 
 <li
-        onClick={() => setKata("Kata: Heian Sandan. Kumite: Kihon Ippon Face")}
-        style={{ color: 'green', cursor: 'pointer' }} >Green belt</li>
+        onClick={() => setKata("Green belt.  Kata: Heian Sandan. Kumite: Kihon Ippon Face")}
+        style={{ color: 'green', cursor: 'pointer', textDecorationLine: 'underline' }} >Green belt</li>
 
 <li
-        onClick={() => setKata("Kata: Heian Yondan. Kumite: Kihon Ippo Face and Body")}
-        style={{ color: 'blue', cursor: 'pointer' }} >Blue belt</li>
+        onClick={() => setKata("Blue belt.  Kata: Heian Yondan. Kumite: Kihon Ippo Face and Body")}
+        style={{ color: 'blue', cursor: 'pointer', textDecorationLine: 'underline' }} >Blue belt</li>
 
 <li
-        onClick={() => setKata("Kata: Heian Godan. Kumite: Kihon Ippon Face, Stomach and Front Kick")}
-        style={{ color: 'purple', cursor: 'pointer' }} >Purple belt</li>
+        onClick={() => setKata("Purple belt.  Kata: Heian Godan. Kumite: Kihon Ippon Face, Stomach and Front Kick")}
+        style={{ color: 'purple', cursor: 'pointer', textDecorationLine: 'underline' }} >Purple belt</li>
 
 <li
-        onClick={() => setKata("Kata: Tekki Shodan. Kumite: All of Kihon Ippon and Jiyon Ippon Face")}
-        style={{ color: 'brown', cursor: 'pointer' }} >Brown belt</li>
+        onClick={() => setKata("Brown belt.  Kata: Tekki Shodan. Kumite: All of Kihon Ippon and Jiyon Ippon Face")}
+        style={{ color: 'brown', cursor: 'pointer', textDecorationLine: 'underline' }} >Brown belt</li>
 
 <li
-        onClick={() => setKata("Kata: Bassi-Dai. Kumite: Jiyu Ippon Face and Body")}
-        style={{ color: 'brown', cursor: 'pointer' }} >2nd Kyu belt</li>
+        onClick={() => setKata("2nd Kyu belt.  Kata: Bassi-Dai. Kumite: Jiyu Ippon Face and Body")}
+        style={{ color: 'brown', cursor: 'pointer', textDecorationLine: 'underline' }} >2nd Kyu belt</li>
 
 <li
-        onClick={() => setKata("Kata: Bassi-dai, Kanku-dai. Kumite: Jiyu Ippon Face Body and Front Kick")}
-        style={{ color: 'brown', cursor: 'pointer' }} >1st Kyu belt</li>
+        onClick={() => setKata("1st Kyu belt.  Kata: Bassi-dai, Kanku-dai. Kumite: Jiyu Ippon Face Body and Front Kick")}
+        style={{ color: 'brown', cursor: 'pointer', textDecorationLine: 'underline' }} >1st Kyu belt</li>
 
 <li
-        onClick={() => setKata("Kata: Enpi and own combination.  Kumite: All of Jiyu Ippon")}
-        style={{ color: 'black', cursor: 'pointer' }} >Black belt</li>
+        onClick={() => setKata("Black belt.  Kata: Enpi and own combination.  Kumite: All of Jiyu Ippon")}
+        style={{ color: 'black', cursor: 'pointer', textDecorationLine: 'underline' }} >Black belt</li>
 
     {/*<li style={{ color: 'yellow' }}>Yellow belt</li>
     <li style={{ color: 'green' }}>Green belt</li>
@@ -112,7 +112,7 @@ function Website2() {
 
 <section id="beltInfo" class="container_info"> 
 
-<h3>Further Information</h3>
+<h3>Belt Information</h3>
 
 <p class="beltInfoHere">{kata}</p>
 
