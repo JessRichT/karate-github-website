@@ -6,8 +6,9 @@
 }
 .bg{
   width: auto;
-  background: url("../images/SteppingStones.jpg")
+  background: url("../images/SteppingStones.jpg");
   /*background-image: url("images/SteppingStones.jpg");*/
+  background-size: cover;
 }
 /*body{
   background-image: url("../images/SteppingStones.jpg");
@@ -256,5 +257,8 @@ p{
 }
 .attribution{ 
   font-size: 0.5em;
+}
+.membersArea{
+  padding-top: 2em;
 }
 }

@@ -11,7 +11,7 @@ function Website2() {
 //use state:
   //const[name, setName] = useState("");
   //const[beltColour, setBeltColour] = useState("");
-  const [kata, setKata] = useState("What do you need to get your next belt?");
+  const [kata, setKata] = useState("What you need to get your next belt");
 
 ////////JSX (similar to html).  Wrap in <> and </>
   return ( 
@@ -42,7 +42,7 @@ function Website2() {
 
 <body>
 <div class="bg"> 
-<h1>Member's Area</h1>
+<h1 class="membersArea">Member's Area</h1>
     
     <div class="flex">
 

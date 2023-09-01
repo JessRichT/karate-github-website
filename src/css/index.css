@@ -4,7 +4,7 @@
   padding: 0;
 }
 .bg{
-  background: orange url("../images/SteppingStones.jpg")
+  background: url("../images/SteppingStones.jpg")
   /*background-image: url("images/SteppingStones.jpg");*/
   /*margin-top: 50px;*/
 }
@@ -46,7 +46,7 @@ h1{
   font-size: 2em;
 }
 .logo{
-  padding-top: 1em;
+  padding-top: 2em;
   display: block;
   margin-left: auto;
   margin-right: auto;  width: 50%;
