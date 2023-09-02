@@ -121,6 +121,20 @@ p{
 .attribution{ 
   font-size: 0.5em;
 }
+.membersArea{
+  padding-top: 4em;
+}
+.relativeBeltInfo{
+  position: relative;
+}
+.beltInfoHere{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 30%;
+  background-color: lightGray;
+  border-style: ridge;
+}
 
 @media only screen and (min-width: 768px) {
   /*for desktop*/ 
@@ -166,13 +180,22 @@ h1{
 .arrow{
   padding-top: 2em;
 }
+.relativeBeltInfo{
+  position: relative;
+}
 .beltInfoHere{
+  position: absolute;
+  top: 100%;
+  left: 30%;
   font-family: garamond;
   background-color: lightGray;
   border-style: ridge;
   padding: 2em;
-  margin-top: 6em;
-  margin-bottom: 12em;
+  /*margin-top: 6em;
+  margin-bottom: 12em;*/
+  /*margin: 15em;
+  margin-right:30px;*/
+  width: 30%;
   text-align: center;
   border-left-style: solid;
 }
@@ -257,8 +280,5 @@ p{
 }
 .attribution{ 
   font-size: 0.5em;
-}
-.membersArea{
-  padding-top: 2em;
 }
 }
