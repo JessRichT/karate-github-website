@@ -106,13 +106,13 @@ function Website2() {
   <li style={{ color: 'black' }}>Black belt</li>*/}
   </ul>  
 
-  <p class="note_stripes">N.B. Kids can achieve intermediate grades which are shown with a white stripe on their belt.</p>
+  <p class="note_stripes1">N.B. Kids can achieve intermediate grades which are shown with a white stripe on their belt.</p>
 
 </section> 
 
 <section id="beltInfo" class="container_info"> 
 
-<h3>Belt Information</h3>
+<h3>More Belt Information</h3>
 
 <p class="beltInfoHere">{kata}</p>
 

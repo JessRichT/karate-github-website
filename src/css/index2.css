@@ -129,9 +129,9 @@ p{
 }
 .beltInfoHere{
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
-  width: 30%;
+  width: 35%;
   background-color: lightGray;
   border-style: ridge;
 }
@@ -227,8 +227,13 @@ p{
 .blackWhite{
   color: black
 }
+.note_stripes1{
+  padding-top: 5em;
+  /*margin-top: 100%;*/
+}
 .note_stripes{
-  padding-top: 1em;
+  padding-top: 20em;
+  /*margin-top: 100%;*/
 }
 .container_form{
   font-family: Ariel;
