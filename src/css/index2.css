@@ -11,7 +11,7 @@
   background-size: cover;
 }
 body{
-  background-image: url("../images/SteppingStones.jpg");
+/*  background-image: url("../images/SteppingStones.jpg");*/
   /*background-image: url('./SteppingStones.jpg');
   
   background-color: darkOrange;*/
@@ -129,7 +129,7 @@ p{
 }
 .beltInfoHere{
   position: absolute;
-  top: 40%;
+  top: 50%;
   left: 50%;
   width: 35%;
   background-color: lightGray;
@@ -185,7 +185,7 @@ h1{
 }
 .beltInfoHere{
   position: absolute;
-  top: 100%;
+  top: 90%;
   left: 30%;
   font-family: garamond;
   background-color: lightGray;
@@ -336,7 +336,7 @@ p{
   }
   .beltInfoHere{
     position: absolute;
-    top: 100%;
+    top: 50%;
     left: 30%;
     font-family: garamond;
     background-color: lightGray;
@@ -389,7 +389,7 @@ p{
   .container_form{
     font-family: Ariel;
     padding: 1em;
-    background-image: linear-gradient(darkGray, lightblue, lightblue, lightblue, orange);
+    /*background-image: linear-gradient(darkGray, lightblue, lightblue, lightblue, orange);*/
     opacity: 0.8;
     border-color: darkGray;
     border-style: double;
