@@ -4,7 +4,8 @@
   padding: 0;
 }
 .bg{
-  background: url("../images/SteppingStones.jpg")
+  /*background-color: darkOrange;*/
+  /*background: url("../images/SteppingStones.jpg")*/
   /*background-image: url("images/SteppingStones.jpg");*/
   /*margin-top: 50px;*/
 }
